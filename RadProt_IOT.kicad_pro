@@ -488,7 +488,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "RadProt_IOT.dsn",
       "step": "",
       "svg": "",
       "vrml": ""
