@@ -2638,6 +2638,10 @@
 		(uuid "0d283018-7b67-475d-93e8-40d2696c0e0d")
 	)
 	(no_connect
+		(at 76.2 66.04)
+		(uuid "10e0eb7c-104c-4c2e-8678-f43ad3bd28d4")
+	)
+	(no_connect
 		(at 209.55 106.68)
 		(uuid "12a07903-faed-44cc-86da-88a17a717fd9")
 	)
@@ -2692,10 +2696,6 @@
 	(no_connect
 		(at 138.43 129.54)
 		(uuid "a8941465-cf9c-42a9-9d69-8aa47a63aafa")
-	)
-	(no_connect
-		(at 76.2 66.04)
-		(uuid "c468f952-0528-42e8-bc71-50c6ea2628b5")
 	)
 	(no_connect
 		(at 138.43 93.98)
@@ -36633,7 +36633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74b70437-b1af-461b-a899-01bc2280eb3b")
-		(property "Reference" "A1"
+		(property "Reference" "U1"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -36801,7 +36801,7 @@
 		(instances
 			(project ""
 				(path "/cff4cc2a-e2ab-4a74-8ae5-5e001e0fb180"
-					(reference "A1")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -37414,7 +37414,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STATUS"
+		(property "Value" "Status"
 			(at 132.08 152.7174 90)
 			(effects
 				(font
