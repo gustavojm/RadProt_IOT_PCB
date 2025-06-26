@@ -36881,7 +36881,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 149.86 0)
+		(at 128.27 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36890,7 +36890,7 @@
 		(fields_autoplaced yes)
 		(uuid "87b2805d-1615-4700-b3c0-2c75917dc00d")
 		(property "Reference" "R1"
-			(at 130.81 148.5899 0)
+			(at 130.81 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36899,7 +36899,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 130.81 151.1299 0)
+			(at 130.81 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36907,8 +36907,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
-			(at 126.492 149.86 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 126.492 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36917,7 +36917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 149.86 0)
+			(at 128.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36926,7 +36926,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 149.86 0)
+			(at 128.27 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37397,7 +37397,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 128.27 140.97 90)
+		(at 128.27 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37406,7 +37406,7 @@
 		(fields_autoplaced yes)
 		(uuid "e64803f1-8258-4391-a5aa-b1bbb3aa3245")
 		(property "Reference" "D1"
-			(at 132.08 141.2874 90)
+			(at 132.08 150.1774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37415,7 +37415,7 @@
 			)
 		)
 		(property "Value" "STATUS"
-			(at 132.08 143.8274 90)
+			(at 132.08 152.7174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37424,7 +37424,7 @@
 			)
 		)
 		(property "Footprint" "LED_THT:LED_D3.0mm"
-			(at 128.27 140.97 0)
+			(at 128.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37433,7 +37433,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 140.97 0)
+			(at 128.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37442,7 +37442,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 128.27 140.97 0)
+			(at 128.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37451,7 +37451,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 128.27 140.97 0)
+			(at 128.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
