@@ -1375,7 +1375,7 @@
 		(at 107.5 92.41)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "J4"
+		(property "Reference" "+5v"
 			(at 2.5 -0.01 0)
 			(layer "F.SilkS")
 			(uuid "92e2bd27-0ae9-4f3b-9f49-079e06e8015b")
@@ -4868,7 +4868,7 @@
 		(at 107.5 97)
 		(descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x01 2.54mm single row")
-		(property "Reference" "J5"
+		(property "Reference" "GND"
 			(at 2.9 0 0)
 			(layer "F.SilkS")
 			(uuid "8e930c78-b1f0-478f-b433-74c15c83a0a0")
