@@ -36473,8 +36473,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2fd7b35c-18d7-45c6-a6fb-6e9bf3c5bb9c")
-		(property "Reference" "J2"
-			(at 71.755 99.06 0)
+		(property "Reference" "UART2"
+			(at 71.755 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36532,7 +36532,7 @@
 		(instances
 			(project ""
 				(path "/cff4cc2a-e2ab-4a74-8ae5-5e001e0fb180"
-					(reference "J2")
+					(reference "UART2")
 					(unit 1)
 				)
 			)
@@ -36553,7 +36553,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "689fedbb-2208-43c1-b9e1-a55d91dc3875")
-		(property "Reference" "J3"
+		(property "Reference" "UART3"
 			(at 71.755 142.24 0)
 			(effects
 				(font
@@ -36612,7 +36612,7 @@
 		(instances
 			(project ""
 				(path "/cff4cc2a-e2ab-4a74-8ae5-5e001e0fb180"
-					(reference "J3")
+					(reference "UART3")
 					(unit 1)
 				)
 			)
@@ -37161,8 +37161,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b27e0128-b698-434b-aabd-62ceeb11f849")
-		(property "Reference" "J1"
-			(at 71.755 55.88 0)
+		(property "Reference" "UART1"
+			(at 71.755 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37220,7 +37220,7 @@
 		(instances
 			(project ""
 				(path "/cff4cc2a-e2ab-4a74-8ae5-5e001e0fb180"
-					(reference "J1")
+					(reference "UART1")
 					(unit 1)
 				)
 			)
@@ -37242,7 +37242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c370eb2a-51b8-44c0-8d73-01575c96302c")
-		(property "Reference" "J6"
+		(property "Reference" "J1"
 			(at 215.9 97.79 0)
 			(effects
 				(font
@@ -37318,7 +37318,7 @@
 		(instances
 			(project ""
 				(path "/cff4cc2a-e2ab-4a74-8ae5-5e001e0fb180"
-					(reference "J6")
+					(reference "J1")
 					(unit 1)
 				)
 			)

@@ -1,0 +1,44 @@
+# WARNING: Please lower max Z speed to 30mm/s and max XY speeds to 50mm/s.
+# Tinker more, maybe it needs to go slower!
+
+# Pcb2GCode settings
+metric=true                         # use metric units for parameters. does not affect gcode output
+metricoutput=true                   # use metric units for output
+zero-start=true                     # set the starting point of the project at (0,0)
+zsafe=4                             # safety height (Z-coordinate during rapid moves)
+zchange=5                           # tool changing height
+milling-overlap=10%                 # How much to overlap milling passes, from 0% to 100% or an absolute length
+
+#mirror-axis=1                      # For two-sided boards, the PCB needs to be flipped along the axis x=VALUE
+
+# Milling
+zwork=-0.20                         # milling depth in inches (Z-coordinate while engraving)
+mill-feed=500                       # feed while isolating in [i/m] or [mm/m]
+mill-vertfeed=250                   # vertical feed while isolating in [i/m] or [mm/m]
+mill-speed=1000
+min-milldrill-hole-diameter=1       # minimum hole width or milldrilling. Holes smaller than this are drilled.  
+
+# Drilling
+zdrill=-1.48                        # drilling depth
+drill-feed=250                      # drill feed in [i/m] or [mm/m]
+drill-speed=1000                    # spindle rpm when drilling
+drills-available=1mm,0.8mm          # list of drills available
+drill-side=back                     # drill side; valid choices are front, back or auto (default)
+onedrill=1                          # use only one drill bit size
+
+# Outline
+zcut=-1.48                          # PCB cutting depth in inches
+cut-feed=250                        # PCB cutting feed in [i/m] or [mm/m]
+cut-vertfeed=128                    # PCB vertical cutting feed in [i/m] or [mm/m]
+cut-speed=1000                      # spindle rpm when cutting
+cut-infeed=0.5                      # maximum cutting depth; PCB may be cut in multiple passes
+
+cutter-diameter=1mm                 # diameter of the end mill used for cutting out the PCB
+
+# G64 is not supported by GRBL      
+nog64=true                          # do not set an explicit g64
+nog91-1=true                        # do not explicitly set G91.1 in drill headers
+
+isolation-width=1.0                 # Minimum isolation width between copper surfaces
+
+

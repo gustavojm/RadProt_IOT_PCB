@@ -505,7 +505,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "/home/gustavo/shared/Plot/",
       "pos_files": "",
       "specctra_dsn": "RadProt_IOT.dsn",
       "step": "",
