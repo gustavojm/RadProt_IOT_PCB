@@ -13,22 +13,23 @@ zwork=-0.20                         # milling depth in inches (Z-coordinate whil
 mill-feed=500                       # feed while isolating in [i/m] or [mm/m]
 mill-vertfeed=250                   # vertical feed while isolating in [i/m] or [mm/m]
 mill-speed=1000
-min-milldrill-hole-diameter=1mm     # minimum hole width or milldrilling. Holes smaller than this are drilled.  
-mill-diameters=0.2mm                # Diameters of mill bits, used in the order that they are provided.
+mill-diameters=0.33mm               # Diameters of mill bits, used in the order that they are provided.
 milling-overlap=5%                  # How much to overlap milling passes, from 0% to 100% or an absolute length
+min-milldrill-hole-diameter=10mm    # minimum hole width or milldrilling. Holes smaller than this are drilled.  
 
 # Drilling
 zdrill=-1.48                        # drilling depth
 drill-feed=250                      # drill feed in [i/m] or [mm/m]
 drill-speed=1000                    # spindle rpm when drilling
-drills-available=1mm,0.8mm          # list of drills available
 drill-side=back                     # drill side; valid choices are front, back or auto (default)
+#drills-available=0.65mm,0.7mm,0.9mm,1mm,1.1mm    # list of drills available
+drills-available=0.8                # list of drills available
 onedrill=1                          # use only one drill bit size
 
 # Outline
 zcut=-1.48                          # PCB cutting depth in inches
 cut-feed=250                        # PCB cutting feed in [i/m] or [mm/m]
-cut-vertfeed=128                    # PCB vertical cutting feed in [i/m] or [mm/m]
+cut-vertfeed=125                    # PCB vertical cutting feed in [i/m] or [mm/m]
 cut-speed=1000                      # spindle rpm when cutting
 cut-infeed=0.5                      # maximum cutting depth; PCB may be cut in multiple passes
 cutter-diameter=1mm                 # diameter of the end mill used for cutting out the PCB
@@ -38,4 +39,4 @@ nog64=true                          # do not set an explicit g64
 nog91-1=true                        # do not explicitly set G91.1 in drill headers
 
 #mirror-axis=1                      # For two-sided boards, the PCB needs to be flipped along the axis x=VALUE
-isolation-width=1.0mm               # Minimum isolation width between copper surfaces
+isolation-width=8.0mm              # Minimum isolation width between copper surfaces
