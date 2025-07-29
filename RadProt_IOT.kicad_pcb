@@ -3375,12 +3375,13 @@
 			)
 			(uuid "8915fa54-b9d8-428e-b88d-7c0927f0938f")
 		)
-		(pad "2" thru_hole circle
+		(pad "2" thru_hole roundrect
 			(at -8.89 -21.59)
-			(size 1.6 1.6)
+			(size 3.2 1.6)
 			(drill 0.65)
-			(layers "*.Cu" "F.Mask")
+			(layers "*.Cu")
 			(remove_unused_layers no)
+			(roundrect_rratio 0.5)
 			(net 5 "/UART0_RX")
 			(pinfunction "GPIO1")
 			(pintype "bidirectional")
