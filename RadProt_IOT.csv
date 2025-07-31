@@ -1,0 +1,13 @@
+,Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+,D1,1,Status,,,,LED_THT:LED 3.0mm Rojo,Led Status
+,D2,1,Power,,,,LED_THT:LED 3.0mm Verde,Led Power
+,J1,1,Conn_02x05_Top_Bottom,,,,Conector PinSocket 2x05 P2.54mm Vertical,Conector ENC28J60
+,J5,1,OUT+,,,,Connector PinHeader 1x01 P2.54mm Vertical,Entrada Alimentación +
+,J6,1,OUT-,,,,Connector PinHeader 1x01 P2.54mm Vertical,Entrada Alimentación GND
+,"R1,R2",2,330,,,,Resistor 330Ohm 1/4W,Resistencias LED
+,SW1,1,Config,,,,Switch PUSH 6mm,Switch Config
+,,2,Conector RaspberryPi Pico W,,,,Conector PinSocket 1x20 P2.54mm Vertical,
+,U1,1,RaspberryPi Pico W,,,,Raspberry Pi Pico W,
+,"UART0,UART2,UART3",3,Conn_01x04_Socket,,,,Conector PinSocket 1x04 P2.54mm Vertical,Conector Max3232
+,,3,Max3232,,,,,Level Shifters Max 3232
+,ENC28J60,1,,,,,Módulo Ethernet,ENC28J60
